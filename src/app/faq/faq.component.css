@@ -1,0 +1,133 @@
+.container{
+    position: absolute;
+    border: 1px solid ;
+    width: 1347px;
+    height:1090px auto;
+    background-color: #282828;
+    margin-top: -45px;
+}
+.content{
+    position: relative;
+    border: 1px solid black;
+    width: 1347px;
+    height: auto ;
+    background-color: black;
+    margin-top: 10px;
+}
+.head-one{
+    position: relative;
+    text-align: center;
+    font-size: 49px;
+    margin-top: 65px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 66px;
+}
+.acc1{
+    position: relative;
+    margin-top: 20px;
+    width: 1040px;
+    margin-left: 150px;  
+}
+.acc2{
+    position: relative;
+    margin-top: 8px;
+    width: 1040px;
+    margin-left: 150px;    
+}
+mat-expansion-panel-header{
+    width: 1090px;
+    margin-left: -30px;
+    height: 73px ;
+    background:#303030 ;
+}
+mat-panel-title{
+    width: 1040px;
+    height: 73px;
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+mat-panel-title:hover{
+    background-color: #736c6c;
+    width: 1240px;
+    height: 73px;
+}
+mat-expansion-panel{
+    background-color: #2D2D2D;
+}
+.bor{
+    margin-left: -28px;
+    margin-top:5px;
+    border: 1px solid black;
+    width: 1043px;
+    height: 1px;
+    background-color: black;
+}
+.content-one{
+    margin-top: 16px;
+    border: 1px solid #2D2D2D;
+    width: 1000px;
+    height: 100px;
+    line-height: 2rem;
+    font-size: 23px;
+    color: white;
+}
+.content-two{
+    margin-top: -30px;
+    border: 1px solid #2D2D2D;
+    width: 1000px;
+    height: 100px;
+    line-height: 2rem;
+    font-size: 23px;
+    color: white;
+}
+.head-two{
+    position: relative;
+    color: white;
+    font-size: 23px;
+    margin-top: 60px;
+    text-align: center;
+}
+.example-form {
+    border: 2px solid green;
+    width: 370px;
+    height: 55px;
+    margin-left: 370px;
+}
+.example-full-width {
+    width: 100%;
+}
+.btn1{
+    width: 260px;
+    height: 60px;
+    position: relative;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #cc0000;
+    margin-top: -77px;
+    margin-left: 750px;
+}
+.btn1 h3{
+    font-size: 29px;
+    font-weight: bolder;
+    color: #fff;
+    height: 70px;
+    margin-top: 59px;
+    margin-left: -50px;
+    font-family: 'Inter', sans-serif;
+}    
+.btn1:hover{
+    background-color: #A91101;
+    color: #fff;
+    opacity: 0.9;
+    transition: background-color 0.5s ease-in;
+}
+.arrow{
+    position: absolute;
+    margin-top: -87px;
+    margin-left: 70px;
+    width: 26px;
+}

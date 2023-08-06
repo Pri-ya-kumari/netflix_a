@@ -1,0 +1,116 @@
+.container{
+    background-color: #000;
+    opacity: 0.99;
+    position: relative;
+}
+.image1{
+    position: static;
+    margin-bottom: 250px;
+    margin-left: 0px;
+    width: 1345px;
+    height: 670px;
+    background: wheat;
+    opacity: 0.3;
+}
+.image2{
+    width: 210px;
+    position: static;
+    opacity: 0.99;
+    margin-left: -1220px;
+    margin-bottom: 810px ;
+}
+.btn{
+    position: relative;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #cc0000;
+    margin-top: -1735px;
+    margin-left: 800px;
+}
+.btn h3{
+    color: #fff;
+    margin-top: 60px;
+    height: 70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover{
+    background-color: #A91101;
+    color: #fff;
+    opacity: 0.9;
+    transition: background-color 0.5s ease-in;
+}
+.content{
+    position: relative;
+    color: #fff;
+}
+.heading-one{
+    font-size: 46px;
+    margin-top: -650px;
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading-two{
+    width: 450px;
+    height: 20px;
+    font-size: 26px;
+    padding: 20px;
+    margin-top: 17px;
+    margin-left: 380px;
+    font-family: 'REM', sans-serif;
+}
+.heading-three{
+    width: 820px;
+    height: 30px;
+    font-size: 26px;
+    padding: 20px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: -12px;
+    font-weight: bold;
+    font-weight: lighter;
+}
+.example-form {
+    border: 2px solid black;
+    width: 400px;
+    margin-top: -20px;
+    margin-left: 300px;
+}
+.example-full-width {
+    width: 100%;
+}
+.btn1{
+    width: 290px;
+    height: 60px;
+    position: relative;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #cc0000;
+    margin-top: -127px;
+    margin-left: 720px;
+}
+.btn1 h3{
+    font-size: 29px;
+    font-weight: bolder;
+    color: #fff;
+    height: 70px;
+    margin-top: 59px;
+    margin-left: -50px;
+    font-family: 'Inter', sans-serif;
+}    
+.btn1:hover{
+    background-color: #A91101;
+    color: #fff;
+    opacity: 0.9;
+    transition: background-color 0.5s ease-in;
+}
+.arrow{
+    position: absolute;
+    margin-top: -87px;
+    margin-left: 70px;
+    width: 26px;
+}
+.lnk{
+    text-decoration: none;
+    color: white;
+}

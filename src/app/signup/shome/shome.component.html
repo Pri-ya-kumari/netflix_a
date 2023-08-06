@@ -1,0 +1,84 @@
+
+<div class="container">
+    <img src="assets/image/netflixhome.jpg" class="image1">
+    <img src="assets/image/netflixlogo.png" class="image2" routerLink="/mainpage">
+
+    <div class="form-border">
+        <h3 class="head-one">Sign In</h3>
+
+        div class="form">
+        <form class="example-form ">
+            <mat-form-field class="example-full-width">
+                <mat-label>Email Address</mat-label>
+                <input type="email" matInput [formControl]="emailFormControl"
+                    [errorStateMatcher]="matcher"
+                    placeholder="Ex. pat@example.com">
+                <mat-error
+                    *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                    <mat-icon>highlight_off</mat-icon>
+                    Please enter a valid email address
+                </mat-error>
+                <mat-error *ngIf="emailFormControl.hasError('required')">
+                    Email is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+        </form>
+
+        <div class="example-container">
+            <mat-form-field class="example-full-width">
+                <mat-label>Enter your password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'"
+                    class="input">
+                <button mat-icon-button matSuffix (click)="hide = !hide"
+                    [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+        <button mat-stroked-button color="warn" class="btn1">
+            <h3>Sign In</h3>
+        </button>
+        <section class="example-section">
+            <mat-checkbox class="example-margin"></mat-checkbox>
+            <div class="box"></div>
+            <h3 class="head-r">Remember Me</h3>
+        </section>
+        <h4 class="head-ri">Need help?</h4>
+        <h6 class="head-rig">New to Netflix?<a routerLink="/mainpage"> Sign up
+                now.</a></h6>
+        <p class="head-two">This page is protected by Google reCAPTCHA to <br>ensure
+            you're not a bot.<button class="btn3" (click)="toggleData()"> Learn
+                more.</button>
+            <div class="hiddencontent" *ngIf="todisplay">The information
+                collected by Google reCAPTCHA is subject to the Google Privacy
+                Policy and Terms of Service, and
+                is used for providing, maintaining, and improving the reCAPTCHA
+                service and for general security purposes (it is not used for
+                personalised advertising by Google).</div>
+    </div>
+
+    <div class="footer">
+        <div class="block">
+            <p>Questions? Call <a href="#" class="link">000-800-919-1694</a></p>
+            <div class="inside-part">
+                <ul type="none">
+                    <li><a href class="link1">FAQ</a></li>
+                    <li><a href class="link1">Cookie Preferences</a></li>
+                </ul>
+            </div>
+            <div class="inside-part-one">
+                <ul type="none">
+                    <li><a href class="link1">Help Centre</a></li>
+                    <li><a href class="link1">Corporate Information</a></li>
+                </ul>
+            </div>
+            <div class="inside-part-two">
+                <ul type="none">
+                    <li><a href class="link1">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="content">
+        <div class="left-content">
+            <h2 class="head-one">Watch everywhere</h2>
+            <h4 class="head-two">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h4>
+        </div>
+        <div class="right-content">
+            
+            <vg-player>
+                <div class="hide"></div>
+                <video  [vgMedia]="$any(media)" #media id="repeatVideo" preload="auto" autoplay loop [muted]="'muted'" >
+                    <source src="assets/vedios/v3.mp4" type="video/mp4">
+                </video>
+            </vg-player>
+        </div>
+    </div>
+</div>>
