@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import {
   FormControl,
-  FormGroupDirective,
-  NgForm,
-  Validators
+  FormGroupDirective,  Validators
 } from '@angular/forms';
 import {ErrorStateMatcher} from '@angular/material/core';
+import {NgForm} from '@angular/forms';
+import { UserService } from '../service/user.service';
 
 
 export class MyErrorStateMatcher implements ErrorStateMatcher {
-  isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
+  isErrorState(control: FormControl | null, form: FormGroupDirective  |NgForm | null): boolean {
     const isSubmitted = form && form.submitted;
     return !!(control && control.invalid && (control.dirty || control.touched || isSubmitted));
   }
@@ -25,4 +25,10 @@ export class HomeComponent{
 
   matcher = new MyErrorStateMatcher();
 
+  constructor(private userdata :UserService){ }
+  dologin(data:any){
+    this.userdata.saveUsers(data).subscribe((value)=>{
+      console.warn(value)
+    }); 
+  }
 }

@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid  lightslategrey;
+    width: 1347px;
+    height: 90px;
+}
+.image2{
+    width: 210px;
+    margin-left: 40px;
+}
+.lnk{
+    text-decoration: none;
+    margin-left: 1290px;
+    color: black;
+}
+h3{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    height: 70px;
+    margin-top: -79px;
+    margin-left: -50px;
+    font-family: 'Inter', sans-serif;
+}    

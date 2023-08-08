@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { BlockTwoComponent } from './block-two/block-two.component';
 import {VgCoreModule} from '@videogular/ngx-videogular/core';
@@ -26,6 +26,17 @@ import {MatSelectModule} from '@angular/material/select';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { ShomeComponent } from './signup/shome/shome.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { FirstPageComponent } from './signin/first-page/first-page.component';
+import { HeaderComponent } from './signin/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule }   from '@angular/forms';
+import { FooterComponent } from './signin/footer/footer.component';
+import { SecondComponent } from './signin/second/second.component';
+import { ThirdComponent } from './signin/third/third.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -39,6 +50,11 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     FoteerComponent,
     MainpageComponent,
     ShomeComponent,
+    FirstPageComponent,
+    HeaderComponent,
+    FooterComponent,
+    SecondComponent,
+    ThirdComponent
   ],
   imports: [
     BrowserModule,
@@ -56,8 +72,10 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     CdkAccordionModule,
     VgOverlayPlayModule,
     VgBufferingModule,
+    HttpClientModule,
     MatExpansionModule,
     MatCheckboxModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

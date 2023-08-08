@@ -1,0 +1,258 @@
+.container{
+    border: 1px solid  lightslategrey;
+    width: 1347px;
+    height: 90px;
+}
+.image2{
+    width: 210px;
+    margin-left: 40px;
+}
+.lnk{
+    text-decoration: none;
+    margin-left: 1290px;
+    color: black;
+}
+h3{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    height: 70px;
+    margin-top: -79px;
+    margin-left: -50px;
+    font-family: 'Inter', sans-serif;
+}    
+.headone{
+    margin-top: 30px;
+    width: 262px;
+    height: 19px;
+    padding-left: 220px;
+    font-size: 15px;
+}
+.headtwo{
+    margin-top: -5px;
+    width: 663px;
+    height: 60px;
+    font-size: 32px;
+    margin-left: 215px;
+}
+.imgone{
+    position: absolute;
+    margin-top: -30px;
+    margin-left:220px;
+
+}
+.headthree{
+    position: relative;
+    margin-top: -30px;
+    width: 262px;
+    height: 19px;
+    padding-left: 260px;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.imgtwo{
+    position: absolute;
+    margin-top: 5px;
+    margin-left:220px;
+
+}
+.headfour{
+    position: relative;
+    margin-top: 24px;
+    width: 292px;
+    height: 19px;
+    padding-left: 260px;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.imgthree{
+    position: absolute;
+    margin-top: 5px;
+    margin-left:220px;
+
+}
+.headfive{
+    position: relative;
+    margin-top: 22px;
+    width: 362px;
+    height: 19px;
+    padding-left: 260px;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.blocks1{
+    display: flex;
+    margin-top: 12px;
+    border: 1px solid white;
+    width: 1046px;
+    height: 630px;
+    margin-left: 202px;
+}
+.inside-block{
+    margin-top: 12px;
+    border: 1px solid white;
+    width: 160px;
+    height: 490px;
+    margin-left: 330px;
+}
+.block1{
+    display: inline-block;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    margin-top: 12px;
+    margin-left: 20px;
+    background-color: #EF6B71;
+    color: #FEFFFF;
+}
+.block1 h4{
+    text-align: center;
+   font-size: 20px;
+}
+.price{
+    border: 1px solid white;
+    width: 120px;
+    height: 34px;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+}
+.mobile{
+    border: 1px solid black;
+    width: 20px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 63px;
+}
+.circle{
+    border: 1px solid black;
+    width: 2px;
+    height: 2px;
+    border-radius: 12px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.headsix{
+    margin-top: 13px;
+    margin-left: -20px;
+}
+.tablet{
+    border: 1px solid black;
+    width: 30px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.circle1{
+    border: 1px solid black;
+    width: 2px;
+    height: 2px;
+    border-radius: 12px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.headseven{
+    margin-top: 12px;
+    margin-left: -28px;
+}
+.inside-block1{
+    margin-top: 12px;
+    border: 1px solid white;
+    width: 160px;
+    height: 600px;
+    margin-left: 10px;
+}
+.block2{
+    display: inline-block;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    margin-top: 12px;
+    margin-left: 20px;
+    background-color: #EF6B71;
+    color: #FEFFFF;
+}
+.tv{
+    margin-top: -5px;
+    margin-left: 67px;
+}
+.headeight{
+    margin-top: -5px;
+    margin-left: -15px;
+}
+.computer{
+    margin-top: 35px;
+    margin-left: 67px;
+}
+.headnine{
+    margin-top: -5px;
+    margin-left: 2px;
+}
+.text1{
+    position:absolute;
+    border: 1px solid white;
+    height: 44px;
+    width: 330px;
+    margin-top: 173px;
+}
+.headten{
+    margin-top: 10px;
+    color: black;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.line{
+    margin-top: 23px;
+    height: 1px;
+    width: 941px;
+}
+.text2{
+    position:absolute;
+    border: 1px solid white;
+    height: 44px;
+    width: 330px;
+    margin-top: 249px;
+}
+.headele{
+    margin-top: 10px;
+    color: black;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.text3{
+    position:absolute;
+    border: 1px solid white;
+    height: 44px;
+    width: 330px;
+    margin-top: 319px;
+}
+.headtwe{
+    margin-top: 10px;
+    color: black;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.text4{
+    position:absolute;
+    border: 1px solid white;
+    height: 44px;
+    width: 330px;
+    margin-top: 380px;
+}
+.headthe{
+    margin-top: 10px;
+    color: black;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.section1{
+    border: 1px solid black;
+    
+}

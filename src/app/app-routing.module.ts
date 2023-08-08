@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BlockTwoComponent } from './block-two/block-two.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { ShomeComponent } from './signup/shome/shome.component';
+import { FirstPageComponent } from './signin/first-page/first-page.component';
+import { SecondComponent } from './signin/second/second.component';
+import { ThirdComponent } from './signin/third/third.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,18 @@ const routes: Routes = [
   {
     path:'signup',
     component:ShomeComponent
+  },
+  {
+    path:'signin',
+    component:FirstPageComponent
+  },
+  {
+    path:'signins',
+    component:SecondComponent
+  },
+  {
+    path:'signint',
+    component:ThirdComponent
   }
 ];
 

@@ -14,11 +14,11 @@
     <h5 class="heading-three">Ready to watch? Enter your email to create or restart your membership.</h5>
 </div>
 <div class="form">
-    <form class="example-form ">
+      <form #userForm="ngForm" (ngSubmit)="dologin(userForm.value)" class="example-form ">
         <mat-form-field class="example-full-width">
           <mat-label>Email Address</mat-label>
-          <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
-                 placeholder="Ex. pat@example.com" >
+          <input type="email" name="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+              placeholder="Ex. pat@example.com" >
           <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
             <mat-icon>highlight_off</mat-icon>
             Please enter a valid email address
@@ -27,11 +27,13 @@
             Email is <strong>required</strong>
           </mat-error>
         </mat-form-field>
+        <button type="submit" mat-stroked-button color="warn" class="btn1"  >
+          <h3><a routerLink="/signin" class="lnk">
+            Get Started</a></h3>
+          <img src="assets/image/arrow.png" class="arrow">
+      </button>
+      
       </form>
 </div>
-<button mat-stroked-button color="warn" class="btn1">
-    <h3>Get Started</h3>
-    <img src="assets/image/arrow.png" class="arrow">
-</button>
 
 

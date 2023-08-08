@@ -1,0 +1,85 @@
+.section{
+    border: 1px solid white;
+    width: 914px;
+    height: 492px;
+    margin-top: 20px;
+    margin-left: 218px;
+    color: #333333;
+}
+.head-one{
+    margin-top: 40px;
+    border: 1px solid white;
+    width: 334px;
+    margin-left: 227px;
+    font-size: 15px;
+}
+.head-two{
+    margin-left: 227px;
+    width: 369px;
+    font-size: 36px;
+}
+.head-three{
+    border: 1px solid white;
+    width: 430px;
+    margin-left: 227px;
+    font-size: 19px;
+}
+.head-four{
+    margin-top: 10px;
+    border: 1px solid white;
+    width: 334px;
+    margin-left: 227px;
+    font-size: 15px;
+}
+.head-five{
+    margin-top: -32px;
+    border: 1px solid white;
+    width: 334px;
+    margin-left: 227px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+mat-form-field{
+    width: 438px;
+    height: 78px;
+    margin-left: 226px;
+}
+.head-six{
+    border: 1px solid white;
+    width: 334px;
+    margin-left: 227px;
+    font-size: 17px;
+    color: #0087EC;
+}
+.head-six:hover{
+    text-decoration: underline;
+}
+.btn1{
+    width: 440px;
+    height: 60px;
+    position: relative;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #cc0000;
+    margin-top: 2px;
+    margin-left: 228px;
+}
+.btn1 h1{
+    font-size: 26px;
+    font-weight: bolder;
+    color:white;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+}    
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn1:hover{
+    background-color: #A91101;
+    color: #fff;
+    transition: background-color 0.5s ease-in;
+}

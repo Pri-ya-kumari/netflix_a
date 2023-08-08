@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="section">
+    <div class="part-one">
+        <h6 class="head-one">STEP 1 OF 3</h6>
+        <h1 class="head-two">Welcome back!<br>
+            Joining Netflix is easy.</h1>
+        <h6 class="head-three">Enter your password and you'll be watching in no time.</h6>
+        <h6 class="head-four">Email</h6>
+        <h6 class="head-five"><br>{{email}}</h6>
+        
+        <mat-form-field>
+            <mat-label>Enter your password</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+          </mat-form-field>
+
+          <h4 class="head-six"><a >Forget Your password?</a></h4>
+
+          <button type="submit" mat-stroked-button color="warn" class="btn1">
+            <h1><a routerLink="/signins">Next</a></h1>
+        </button>
+    </div>
+    <app-footer></app-footer>
+</div>
+<router-outlet></router-outlet>
