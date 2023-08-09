@@ -5,7 +5,7 @@
 }
 .image2{
     width: 210px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .lnk{
     text-decoration: none;
@@ -25,7 +25,7 @@ h3{
     margin-top: 30px;
     width: 262px;
     height: 19px;
-    padding-left: 220px;
+    padding-left: 80px;
     font-size: 15px;
 }
 .headtwo{
@@ -33,7 +33,7 @@ h3{
     width: 663px;
     height: 60px;
     font-size: 32px;
-    margin-left: 215px;
+    margin-left: 75px;
 }
 .imgone{
     position: absolute;
@@ -41,218 +41,227 @@ h3{
     margin-left:220px;
 
 }
-.headthree{
-    position: relative;
-    margin-top: -30px;
-    width: 262px;
-    height: 19px;
-    padding-left: 260px;
-    font-size: 20px;
-    color: black;
-    font-weight: lighter;
-}
-.imgtwo{
-    position: absolute;
-    margin-top: 5px;
-    margin-left:220px;
-
-}
-.headfour{
-    position: relative;
-    margin-top: 24px;
-    width: 292px;
-    height: 19px;
-    padding-left: 260px;
-    font-size: 20px;
-    color: black;
-    font-weight: lighter;
-}
-.imgthree{
-    position: absolute;
-    margin-top: 5px;
-    margin-left:220px;
-
-}
-.headfive{
-    position: relative;
-    margin-top: 22px;
-    width: 362px;
-    height: 19px;
-    padding-left: 260px;
-    font-size: 20px;
-    color: black;
-    font-weight: lighter;
-}
-.blocks1{
+.outside-border{
     display: flex;
-    margin-top: 12px;
+    margin-top: -25px;
     border: 1px solid white;
-    width: 1046px;
-    height: 630px;
-    margin-left: 202px;
-}
-.inside-block{
-    margin-top: 12px;
-    border: 1px solid white;
-    width: 160px;
-    height: 490px;
-    margin-left: 330px;
+    width: 1330px;
+    height: 520px;
 }
 .block1{
-    display: inline-block;
-    border: 1px solid white;
-    width: 120px;
-    height: 120px;
-    margin-top: 12px;
-    margin-left: 20px;
-    background-color: #EF6B71;
-    color: #FEFFFF;
-}
-.block1 h4{
-    text-align: center;
-   font-size: 20px;
-}
-.price{
-    border: 1px solid white;
-    width: 120px;
-    height: 34px;
-    margin-top: 28px;
-    margin-left: 20px;
-    font-size: 19px;
-    text-align: center;
-    padding-top: 10px;
-}
-.mobile{
-    border: 1px solid black;
-    width: 20px;
-    height: 30px;
-    margin-top: 20px;
-    margin-left: 63px;
-}
-.circle{
-    border: 1px solid black;
-    width: 2px;
-    height: 2px;
-    border-radius: 12px;
-    background-color: black;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.headsix{
-    margin-top: 13px;
-    margin-left: -20px;
-}
-.tablet{
-    border: 1px solid black;
-    width: 30px;
-    height: 20px;
-    margin-top: 40px;
-    margin-left: 60px;
-}
-.circle1{
-    border: 1px solid black;
-    width: 2px;
-    height: 2px;
-    border-radius: 12px;
-    background-color: black;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.headseven{
-    margin-top: 12px;
-    margin-left: -28px;
-}
-.inside-block1{
-    margin-top: 12px;
-    border: 1px solid white;
-    width: 160px;
-    height: 600px;
-    margin-left: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 22px;
+    width: 295px;
+    height: 461px;
+    margin-left: 78px;
+    margin-top: 36px;
 }
 .block2{
-    display: inline-block;
+    border: 1px solid #D3D3D3;
+    border-radius: 22px;
+    width: 295px;
+    height: 461px;
+    margin-left: 12px;
+    margin-top: 36px;
+}
+.btn1{
     border: 1px solid white;
-    width: 120px;
+    border-radius: 22px;
+    width: 279px;
     height: 120px;
-    margin-top: 12px;
-    margin-left: 20px;
-    background-color: #EF6B71;
-    color: #FEFFFF;
+    margin: 10px;
+    margin-left: 7px;
+    background-image: linear-gradient(-215deg, #284D9C  12%,#f11712);;
 }
-.tv{
-    margin-top: -5px;
-    margin-left: 67px;
-}
-.headeight{
-    margin-top: -5px;
-    margin-left: -15px;
-}
-.computer{
-    margin-top: 35px;
-    margin-left: 67px;
-}
-.headnine{
-    margin-top: -5px;
-    margin-left: 2px;
-}
-.text1{
-    position:absolute;
+.btn2{
     border: 1px solid white;
-    height: 44px;
-    width: 330px;
-    margin-top: 173px;
+    border-radius: 22px;
+    width: 279px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 7px;
+    background-image: linear-gradient(-205deg, #313D9A  30%, #7238BD , #A237D5);;
 }
-.headten{
-    margin-top: 10px;
-    color: black;
-    font-size: 19px;
-    margin-left: 13px;
+.btn3{
+    border: 1px solid white;
+    border-radius: 22px;
+    width: 279px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 7px;
+    background-image: linear-gradient(-205deg, #313D9A  30%, #7238BD);;
+}
+.btn4{
+    border: 1px solid white;
+    border-radius: 22px;
+    width: 279px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 7px;
+    background-image: linear-gradient(-205deg, #313D9A  30%, #3464CF);
+}
+.headthree{
+    width: 234px;
+    height: 30px;
+    font-size: 26px;
+    text-align: left;
+    color: white;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.headfour{
+    width: 234px;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    color: #D3D3D3;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+.inside-block1{
+    border: 1px solid white;
+    width: 270px;
+    height: 69px;
+    margin-left: 12px;
+}
+.icon{
+    margin-top: 23px;
+    color: gray;
+}
+.headfive{
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 33px;
+    color: 	#71797E;
+}
+.headsix{
+    border: 1px solid white;
+    font-size: 14px;
+    margin-top: -14px;
+    margin-left: 33px;
 }
 .line{
-    margin-top: 23px;
-    height: 1px;
-    width: 941px;
+    margin-top: -8px;
+    width: 280px;
+    background-color: #D3D3D3;
 }
-.text2{
-    position:absolute;
+.headseven{
+    color: 	#71797E;
     border: 1px solid white;
-    height: 44px;
-    width: 330px;
-    margin-top: 249px;
+    font-size: 14px;
+    margin-top: -44px;
+    margin-left: 33px;
+}
+.headeight{
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top: -14px;
+    margin-left: 33px;
+}
+.block3{
+    margin-top: 22px;
+    margin-left: 74px;
+    border: 1px solid white;
+    width: 1210px;
+    height: 19px
+}
+.headnine{
+    margin-top: -8px;
+    font-size: 13px;
+    color: #71797E;
+}
+.btn5{
+    width: 440px;
+    height: 72px;
+    position: relative;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #cc0000;
+    margin-top: 66px;
+    margin-left: 446px;
+}
+.btn5 h1{
+    font-size: 26px;
+    font-weight: bolder;
+    color:white;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+}    
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn5:hover{
+    background-color: #A91101;
+    color: #fff;
+    transition: background-color 0.5s ease-in;
+}
+.footer{
+    border: 1px solid #F3F3F3;
+    background:#F3F3F3;
+    opacity: 0.8;
+    width: 1333px;
+    height: 200px;
+    margin-top: 101px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+.block{
+    margin-top: 60px;
+    margin-left: 160px;
+    border: 1px solid #F3F3F3;
+    width: 890px;
+    font-size: 16px;
+    color: black;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link1{
+    margin-left: -39px;
+    color:black;
+    width: 100px;
+    height: 1px;
+    text-decoration: none;
+}
+.inside-part{
+    margin-top: 20px;
+    border: 1px solid #F3F3F3;
+    width: 200px;
+    height: 180px;
+    line-height: 2em;
+    text-decoration: none;
+}
+.inside-part-one{
+    float: left;
+    margin-left: 340px;
+    margin-top: -180px;
+    border: 1px solid #F3F3F3;
+    width: 200px;
+    height: 180px;
+    text-decoration: none;
+    line-height: 2em;
+}
+.inside-part-two{
+    float: left;
+    margin-left: 680px;
+    margin-top: -180px;
+    border: 1px solid #F3F3F3;
+    width: 200px;
+    height: 180px;
+    text-decoration: none;
+    line-height: 2em;
 }
 .headele{
-    margin-top: 10px;
-    color: black;
-    font-size: 19px;
-    margin-left: 13px;
+    margin-top: -28px;
+    margin-left: 100px;
+    font-size: 18px;
 }
-.text3{
-    position:absolute;
-    border: 1px solid white;
-    height: 44px;
-    width: 330px;
-    margin-top: 319px;
-}
-.headtwe{
-    margin-top: 10px;
-    color: black;
-    font-size: 19px;
-    margin-left: 13px;
-}
-.text4{
-    position:absolute;
-    border: 1px solid white;
-    height: 44px;
-    width: 330px;
-    margin-top: 380px;
-}
-.headthe{
-    margin-top: 10px;
-    color: black;
-    font-size: 19px;
-    margin-left: 13px;
-}
-.section1{
-    border: 1px solid black;
-    
+.icon1{
+    margin-top: 33px;
+    margin-left: 70px;
 }

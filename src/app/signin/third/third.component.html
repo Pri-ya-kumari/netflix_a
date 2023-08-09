@@ -4,190 +4,177 @@
             Sign Out</a></h3>
 </div>
 <div>
-    <h4 class="headone">STEP 1 OF 3</h4>
+    <h4 class="headone">STEP 2 OF 3</h4>
     <h2 class="headtwo">Choose the plan that’s right for you</h2>
-    <img src="assets/image/tick.png" class="imgone">
-    <h6 class="headthree">Watch all you want. Ad-free.</h6>
-    <img src="assets/image/tick.png" class="imgtwo">
-    <h6 class="headfour">Recommendations just for you.</h6>
-    <img src="assets/image/tick.png" class="imgthree">
-    <h6 class="headfive">Change or cancel your plan anytime.</h6>
 </div>
-
-<div class="blocks1">
-    <!--sidelabels-->
-    <div class="text1">
-        <h4 class="headten">Monthly price</h4>
+<div class="outside-border">
+    <div class="block1" [ngStyle]="this.clicked==true?{'border':'1px solid gray', 'margin-top':'1px','height':'501px'}:{'border':'1px solid #D3D3D3'}" >
+        <button class="btn1" (click)="switch()">
+            <h3 class="headthree">Premium</h3>
+            <h3 class="headfour">&#8377; 699</h3>
+        </button>
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'gray'}" >check_circle</mat-icon>
+            <h6 class="headfive">Monthly price</h6>
+            <h6 class="headsix">&#8377; 699</h6>
+        </div>
         <hr class="line">
-    </div>
-    <div class="text2">
-        <h4 class="headele">Video quality</h4>
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Resolution</h6>
+            <h6 class="headsix">4K (Ultra HD) + HDR</h6>
+        </div>
         <hr class="line">
-    </div>
-    <div class="text3">
-        <h4 class="headtwe">Resolution</h4>
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Video quality</h6>
+            <h6 class="headsix">Best</h6>
+        </div>
         <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon"[ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'gray'}" >check_circle</mat-icon>
+            <h6 class="headseven">Supported devices</h6>
+            <h6 class="headeight">TV, computer, mobile phone, tablet</h6>
+        </div>
+        <div class="inside-block1">
+            <mat-icon class="icon1"[ngStyle]="this.clicked==true?{'color':'gray'}:{'color':'white'}" >check</mat-icon>
+            <h6 class="headele" [ngStyle]="this.clicked==true?{'color':'gray'}:{'color':'white'}">Selected</h6>
+        </div>
     </div>
-    <div class="text4">
-        <h4 class="headthe">Devices you can use to watch</h4>
-    </div>
-    <div class="inside-block">
-        <button class="block1" (click)="switch()"
-            [ngStyle]="this.clicked==true?{'background-color':'#E50914'}:{'background-color':'#EF6B71'}">
-            <h4>Mobile</h4>
+    <!--2nd-->
+    <div class="block2" [ngStyle]="this.clicked1==true?{'border':'1px solid gray', 'margin-top':'1px','height':'501px'}:{'border':'1px solid #D3D3D3'}">
+        <button class="btn2" (click)="switch1()">
+            <h3 class="headthree">Standard</h3>
+            <h3 class="headfour">&#8377; 499</h3>
         </button>
-        <div class="price"
-            [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'black'}">rs
-            149</div>
-        <div class="price"
-            [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'black'}">Good</div>
-        <div class="price"
-            [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'black'}">480p</div>
-        <div class="mobile"
-            [ngStyle]="this.clicked==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle"
-                [ngStyle]="this.clicked==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headsix"
-                    [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'black'}">Phone</h4>
-            </div>
+        <div class="inside-block1">
+            <mat-icon class="icon"  [ngStyle]="this.clicked1==true?{'color':'#B038DC'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Monthly price</h6>
+            <h6 class="headsix">&#8377; 499</h6>
         </div>
-        <div class="tablet"
-            [ngStyle]="this.clicked==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle1"
-                [ngStyle]="this.clicked==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headseven"
-                    [ngStyle]="this.clicked==true?{'color':'#E50914'}:{'color':'black'}">Tablet</h4>
-            </div>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked1==true?{'color':'#B038DC'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Resolution</h6>
+            <h6 class="headsix">1080p (full HD)</h6>
         </div>
-    </div>
-    <!--plan2-->
-    <div class="inside-block1">
-        <button class="block2" (click)="switch()"
-            [ngStyle]="this.clicked1==true?{'background-color':'#E50914'}:{'background-color':'#EF6B71'}">
-            <h4>Basic</h4>
-        </button>
-        <div class="price"
-            [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">rs
-            199</div>
-        <div class="price"
-            [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">Good</div>
-        <div class="price"
-            [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">720p</div>
-        <div class="mobile"
-            [ngStyle]="this.clicked1==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle"
-                [ngStyle]="this.clicked1==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headsix"
-                    [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">Phone</h4>
-            </div>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked1==true?{'color':'#B038DC'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Video quality</h6>
+            <h6 class="headsix">Better</h6>
         </div>
-        <div class="tablet"
-            [ngStyle]="this.clicked1==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle1"
-                [ngStyle]="this.clicked1==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headseven"
-                    [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">Tablet</h4>
-            </div>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked1==true?{'color':'#B038DC'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headseven">Supported devices</h6>
+            <h6 class="headeight">TV, computer, mobile phone, tablet</h6>
         </div>
-        <div class="computer">
-            <mat-icon
-                [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">computer</mat-icon>
-            <h4 class="headeight"
-                [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">computer</h4>
-        </div>
-        <div class="tv">
-            <mat-icon
-                [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">airplay</mat-icon>
-            <h4 class="headnine"
-                [ngStyle]="this.clicked1==true?{'color':'#E50914'}:{'color':'black'}">Tv</h4>
+        <div class="inside-block1">
+            <mat-icon class="icon1"[ngStyle]="this.clicked1==true?{'color':'gray'}:{'color':'white'}" >check</mat-icon>
+            <h6 class="headele" [ngStyle]="this.clicked1==true?{'color':'gray'}:{'color':'white'}">Selected</h6>
         </div>
     </div>
-    <!--plan3-->
-    <div class="inside-block1">
-        <button class="block2" (click)="switch2()"
-            [ngStyle]="this.clicked2==true?{'background-color':'#E50914'}:{'background-color':'#EF6B71'}">
-            <h4>Standard</h4>
+    <!--3rd-->
+    <div class="block2" [ngStyle]="this.clicked2==true?{'border':'1px solid gray', 'margin-top':'1px','height':'501px'}:{'border':'1px solid #D3D3D3'}">
+        <button class="btn3" (click)="switch2()">
+            <h3 class="headthree">Basic</h3>
+            <h3 class="headfour">&#8377; 199</h3>
         </button>
-        <div class="price"
-            [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">rs
-            499</div>
-        <div class="price"
-            [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">Better</div>
-        <div class="price"
-            [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">1080p</div>
-        <div class="mobile"
-            [ngStyle]="this.clicked2==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle"
-                [ngStyle]="this.clicked2==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headsix"
-                    [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">Phone</h4>
-            </div>
+        <div class="inside-block1">
+            <mat-icon class="icon"[ngStyle]="this.clicked2==true?{'color':'#6D3BE3'}:{'color':'gray'}" >check_circle</mat-icon>
+            <h6 class="headfive">Monthly price</h6>
+            <h6 class="headsix">&#8377; 199</h6>
         </div>
-        <div class="tablet"
-            [ngStyle]="this.clicked2==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle1"
-                [ngStyle]="this.clicked2==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headseven"
-                    [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">Tablet</h4>
-            </div>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked2==true?{'color':'#6D3BE3'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Resolution</h6>
+            <h6 class="headsix">720p (HD)</h6>
         </div>
-        <div class="computer">
-            <mat-icon
-                [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">computer</mat-icon>
-            <h4 class="headeight"
-                [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">computer</h4>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked2==true?{'color':'#6D3BE3'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Video quality</h6>
+            <h6 class="headsix">Good</h6>
         </div>
-        <div class="tv">
-            <mat-icon
-                [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">airplay</mat-icon>
-            <h4 class="headnine"
-                [ngStyle]="this.clicked2==true?{'color':'#E50914'}:{'color':'black'}">Tv</h4>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon" [ngStyle]="this.clicked2==true?{'color':'#6D3BE3'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headseven">Supported devices</h6>
+            <h6 class="headeight">TV, computer, mobile phone, tablet</h6>
+        </div>
+        <div class="inside-block1">
+            <mat-icon class="icon1"[ngStyle]="this.clicked2==true?{'color':'gray'}:{'color':'white'}" >check</mat-icon>
+            <h6 class="headele" [ngStyle]="this.clicked2==true?{'color':'gray'}:{'color':'white'}">Selected</h6>
         </div>
     </div>
-    <!--plan4-->
-    <div class="inside-block1">
-        <button class="block2" (click)="switch3()"
-            [ngStyle]="this.clicked3==true?{'background-color':'#E50914'}:{'background-color':'#EF6B71'}">
-            <h4>Premium</h4>
+    <!--4th-->
+    <div class="block2" [ngStyle]="this.clicked3==true?{'border':'1px solid gray', 'margin-top':'1px','height':'501px'}:{'border':'1px solid #D3D3D3'}">
+        <button class="btn4" (click)="switch3()">
+            <h3 class="headthree">Mobile</h3>
+            <h3 class="headfour">&#8377; 149</h3>
         </button>
-        <div class="price"
-            [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">rs
-            499</div>
-        <div class="price"
-            [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">Better</div>
-        <div class="price"
-            [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">1080p</div>
-        <div class="mobile"
-            [ngStyle]="this.clicked3==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle"
-                [ngStyle]="this.clicked3==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headsix"
-                    [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">Phone</h4>
-            </div>
+        <div class="inside-block1">
+            <mat-icon class="icon"  [ngStyle]="this.clicked3==true?{'color':'#3C72E4'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Monthly price</h6>
+            <h6 class="headsix">&#8377; 149</h6>
         </div>
-        <div class="tablet"
-            [ngStyle]="this.clicked3==true?{'border':'2px solid #E50914'}:{'border':'2px solid black'}">
-            <div class="circle1"
-                [ngStyle]="this.clicked3==true?{'background-color':'#E50914'}:{'background-color':'black'}">
-                <h4 class="headseven"
-                    [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">Tablet</h4>
-            </div>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon"  [ngStyle]="this.clicked3==true?{'color':'#3C72E4'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Resolution</h6>
+            <h6 class="headsix">480p</h6>
         </div>
-        <div class="computer">
-            <mat-icon
-                [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">computer</mat-icon>
-            <h4 class="headeight"
-                [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">computer</h4>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon"  [ngStyle]="this.clicked3==true?{'color':'#3C72E4'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headfive">Video quality</h6>
+            <h6 class="headsix">Good</h6>
         </div>
-        <div class="tv">
-            <mat-icon
-                [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">airplay</mat-icon>
-            <h4 class="headnine"
-                [ngStyle]="this.clicked3==true?{'color':'#E50914'}:{'color':'black'}">Tv</h4>
+        <hr class="line">
+        <div class="inside-block1">
+            <mat-icon class="icon"  [ngStyle]="this.clicked3==true?{'color':'#3C72E4'}:{'color':'gray'}">check_circle</mat-icon>
+            <h6 class="headseven">Supported devices</h6>
+            <h6 class="headeight">mobile phone, tablet</h6>
+        </div>
+        <div class="inside-block1">
+            <mat-icon class="icon1"[ngStyle]="this.clicked3==true?{'color':'gray'}:{'color':'white'}" >check</mat-icon>
+            <h6 class="headele" [ngStyle]="this.clicked3==true?{'color':'gray'}:{'color':'white'}">Selected</h6>
         </div>
     </div>
 </div>
-<div class="section1">
+<div class="block3">
+    <h5 class="headnine">HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your 
+        internet service and device capabilities. Not all content is available in all resolutions. 
+        See our Terms of Use for more details.</h5>
+        <h5 class="headnine">Only people who live with you may use your account. Watch on 4 different devices at the same 
+            time with Premium, 2 with Standard, and 1 with Basic and Mobile.</h5>
+</div>
+<button type="submit" mat-stroked-button color="warn" class="btn5">
+    <h1><a routerLink="/payment" >Next</a></h1>
+</button>
 
+<div class="footer">
+    <div class="block">
+        <p>Questions? Call <a href="#" class="link">000-800-919-1694</a></p>
+        <div class="inside-part">
+            <ul type="none">
+                <li><a href class="link1">FAQ</a></li>
+                <li><a href class="link1">Cookie Preferences</a></li>
+            </ul>
+        </div>
+        <div class="inside-part-one">
+            <ul type="none">
+                <li><a href class="link1">Help Centre</a></li>
+                <li><a href class="link1">Corporate Information</a></li>
+            </ul>
+        </div>
+        <div class="inside-part-two">
+            <ul type="none">
+                <li><a href class="link1">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 <router-outlet></router-outlet>

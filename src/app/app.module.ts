@@ -33,6 +33,7 @@ import { FormsModule }   from '@angular/forms';
 import { FooterComponent } from './signin/footer/footer.component';
 import { SecondComponent } from './signin/second/second.component';
 import { ThirdComponent } from './signin/third/third.component';
+import { FourthComponent } from './signin/fourth/fourth.component';
 
 
 
@@ -54,7 +55,8 @@ import { ThirdComponent } from './signin/third/third.component';
     HeaderComponent,
     FooterComponent,
     SecondComponent,
-    ThirdComponent
+    ThirdComponent,
+    FourthComponent
   ],
   imports: [
     BrowserModule,

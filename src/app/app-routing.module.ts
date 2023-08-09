@@ -5,6 +5,7 @@ import { ShomeComponent } from './signup/shome/shome.component';
 import { FirstPageComponent } from './signin/first-page/first-page.component';
 import { SecondComponent } from './signin/second/second.component';
 import { ThirdComponent } from './signin/third/third.component';
+import { FourthComponent } from './signin/fourth/fourth.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path:'signint',
     component:ThirdComponent
+  },
+  {
+    path:'payment',
+    component:FourthComponent
   }
 ];
 
